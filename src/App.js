@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Wishes from './Wishes';
+import Profile from './Profile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Wishes name='Sameer' game='Football' ></Wishes>
+      <Wishes name='Ashish' game='Hockey' ></Wishes>
+      <Wishes name='Dipak' game='Cricket' ></Wishes>
+      <Profile></Profile>
+      
     </div>
   );
 }
