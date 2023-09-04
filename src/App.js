@@ -3,6 +3,7 @@ import './App.css';
 import Wishes from './Wishes';
 import Profile from './Profile';
 import ClassComp1 from './ClassComp1';
+import Button from './Button';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Wishes name='Dipak' game='Cricket' ></Wishes>
       <Profile></Profile>
       <ClassComp1></ClassComp1>
+      <Button></Button>
       
     </div>  
   );
